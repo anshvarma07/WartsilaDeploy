@@ -1,0 +1,73 @@
+.form{
+    border: 2px solid red;
+
+}
+
+
+.inp{
+    width: 85vw;
+    display: block !important;
+}
+
+.cart{
+    zoom:1.5;
+    /* left: 2000px; */
+    /* border: 0.1px solid red; */
+}
+
+.cart:hover{
+    color: grey;
+}
+
+.qty{
+    position: relative;
+    right: -11px;
+    bottom: 40px;
+    color: black;
+    border-radius: 100%;
+    font-size: 8px;
+
+}
+
+.circle {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: -8px;
+    bottom: 20px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+  }
+  
+  
+div.cart{
+    height: 30px !important;
+
+}
+
+.fle{
+    display: flex;
+}
+
+
+@media (max-width: 1044px){
+
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart{
+        zoom: 1.8;
+        position: absolute;
+        bottom: 1px;
+        
+    }
+
+    .inp{
+        width: 70vw;
+    }
+    
+
+  
+}

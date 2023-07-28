@@ -1,0 +1,78 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-items: center;
+  }
+
+  @media (max-width: 1044px) {
+    .gridContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        margin-top: 50px !important;
+    }
+
+  }
+  @media (max-width: 788px) {
+    .gridContainer {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+img{
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+img:hover{
+    padding: 5px;
+    transition: padding 0.1s ease-in;
+}
+
+.card{
+    box-shadow: 
+    0 16px 16px rgba(0, 0, 0, 0.3),   /* Bottom shadow */
+    0 16px 16px rgba(0, 0, 0, 0.2),   /* Lighter bottom shadow */
+    0 16px 16px rgba(0, 0, 0, 0.2);  /* Lighter bottom shadow */
+}
+
+.mystyle{
+    width: 21rem;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+.card:hover{
+    width: 22rem;
+    transition: width 0.1s ease-in;
+
+}
+
+li{
+    background-color: #F0F0F0 !important;
+    /* background-color: #BFEFFD !important; */
+}
+
+.list-group-item>a{
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+.list-group-item>a:hover{
+    background-color: #0E6EFD;
+    color: white;
+
+}
+
+.martop{
+    margin-top: 0px !important;
+}
+
+.marbot{
+    padding-bottom: 0px !important;
+}
+
